@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wildlife</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">WILDLIFE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li class="ctn"><a href="#"></a>Explore</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Seek Into The Wild</h2>
+            <div class="line"></div>
+            <h1>NATURE IS BEAUTIFUL</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Birds</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/1.jpg" alt="" style="width:500px">
+                <h4>TOCO TOUCAN</h4>
+            </div>
+            <div>
+                <p class="one">The toco toucan, also known as the common toucan or giant toucan, is the largest and probably the best known species in the toucan family. It is found in semi-open habitats throughout a large part of central and eastern South America.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/2.jpg" alt="" style="width:600px">
+                <h4>FLAMINGOS</h4>
+            </div>
+            <div>
+                <p class="one">Flamingos or flamingoes are a type of wading bird in the family Phoenicopteridae, which is the only extant family in the order Phoenicopteriformes. There are four flamingo species distributed throughout the Americas, and two species native to Afro-Eurasia. </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/3.jpg" alt="" style="width:600px">
+                <h4>HYACINTH MACAW</h4>
+            </div>
+            <div>
+                <p class="one">The hyacinth macaw, or hyacinthine macaw, is a parrot native to central and eastern South America. With a length of about one meter it is longer than any other species of parrot. It is the largest macaw and the largest flying parrot species; the flightless kākāpō of New Zealand outweighs it at up to 3.5 kg.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/4.jpg" alt="" style="width:600px">
+                <h4>BLUE JAY</h4>
+            </div>
+            <div>
+                <p class="one">The blue jay is a passerine bird in the family Corvidae, native to eastern North America. It lives in most of the eastern and central United States; some eastern populations may be migratory. Resident populations are also in Newfoundland, Canada; breeding populations are found across southern Canada.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/5.jpg" alt="" style="width:600px">
+                <h4>NILGIRI FLYCATCHER</h4>
+            </div>
+            <div>
+                <p class="one">The Nilgiri flycatcher is an Old World flycatcher with a very restricted range in the hills of southern India.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/6.jpg" alt="" style="width:600px">
+                <h4>SHORT EARED OWL</h4>
+            </div>
+            <div>
+                <p class="one">The short-eared owl is a widespread grassland species in the family Strigidae. Owls belonging to genus Asio are known as the eared owls, as they have tufts of feathers resembling mammalian ears. These "ear" tufts may or may not be visible.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>123 Indira Vihar, 110025, New Delhi, India | Phone - +91-9876543210 | Email: abc@gmail.com</p>
+        <p>Copyright @ Nature's Park</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
